@@ -1,0 +1,397 @@
+.main{
+    padding: 10rem;
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8rem;
+}
+
+.content-home h1{
+    font-size: 3.5rem;
+}
+
+.content-home h1 span{
+    color: #3872FB;
+}
+
+.btn{
+    position: relative;
+    top: 1.5rem;
+    margin: 2rem 0;
+}
+
+.btn a{
+    letter-spacing: 1px;
+    padding: 10px 30px;
+    border-radius: 5px;
+    background: #3872FB;
+    border: 2px solid #3872FB;
+    color: #fff;
+}
+
+.box-icon{
+    position: relative;
+    top: 2rem;
+    margin: 3rem 0;
+    display: flex;
+    gap: 2rem;
+}
+
+.box-icon a{
+    font-size: 1.5em;
+    color: #000000dc;
+}
+
+.home-img{
+    height: 400px;
+    width: 450px;
+}
+
+.home-img img{
+    /* filter: drop-shadow(0 0 25px #3872FB); */
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+
+.footer-home{
+    width: 100%;
+    text-align: center;
+}
+
+.footer-home a{
+    font-size: 2rem;
+    font-weight: 600;
+    border-bottom: 3px solid #3872FB;
+    color: #3872FB;
+}
+
+.about{
+    padding: 4rem;
+    background: #fff;
+}
+
+.ContainerContent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+}
+
+.BoxImg{
+    width: 400px;
+    height: 500px;
+}
+
+.BoxImg img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.ContentBox p{
+    margin-top: 1rem;
+    width: 430px;
+}
+
+.skills{
+    padding: 2rem;
+    background: #fff;
+}
+
+.HeadSkill{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.HeadSkill a{
+    font-size: 2rem;
+    font-weight: 600;
+    border-bottom: 3px solid #3872FB;
+    color: #3872FB;
+}
+
+.container{
+    margin-top: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    gap: 3rem;
+}
+
+.Box-img--Skills{
+    height: 350px;
+    width: 550px;
+}
+
+.Box-img--Skills img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.container{
+    width: 100%;
+}
+
+.content--Container{
+    position: relative;
+    bottom: 2.5rem;
+}
+
+.content--Container p{
+    margin-top: 1rem;
+    width: 450px;
+    letter-spacing: 1px;
+}
+
+.Box--Card{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    gap: 1.5rem;
+}
+
+.Box--Card .card{
+    position: relative;
+    box-shadow: 0 0 15px #00000041;
+    width: 100%;
+    height: 50px;
+    background: #fcfcfc;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Box--card{
+    padding: 0 1rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.img--icon{
+    width: 30px;
+    height: 30px;
+}
+
+.icon h3{
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.img--icon img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: invert(30%) sepia(93%) saturate(2606%) hue-rotate(216deg) brightness(102%) contrast(95%);
+}
+
+.line-bottom{
+    animation: html 2s ease-in-out;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 95%;
+    background: #3872FB;
+    height: 5px;
+    border-radius: 20px;
+}
+
+.line-bottom-css{
+    animation: css-ux 2s ease-in-out;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 84%;
+    background: #3872FB;
+    height: 5px;
+    border-radius: 20px;
+}
+
+.line-bottom-js{
+    animation: js 2s ease-in-out;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 66%;
+    background: #3872FB;
+    height: 5px;
+    border-radius: 20px;
+}
+
+.line-bottom-ux{
+    animation: css-ux 2s ease-in-out;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 84%;
+    background: #3872FB;
+    height: 5px;
+    border-radius: 20px;
+}
+
+@keyframes html{
+    0%{
+        width: 20%;
+    }
+    100%{
+        width: 95%;
+    }
+}
+
+@keyframes css-ux{
+    0%{
+        width: 20%;
+    }
+    100%{
+        width: 84%;
+    }
+}
+
+@keyframes js{
+    0%{
+        width: 20%;
+    }
+    100%{
+        width: 66%;
+    }
+}
+
+.word{
+    padding: 2rem;
+    background: #fff;
+}
+
+.gallery{
+    padding: 3rem;
+    display: grid;
+    justify-items: center;
+    grid-auto-rows: 300px;
+    grid-template-columns: repeat(auto-fit , minmax(300px , 1fr));
+    grid-gap: 2rem;
+}
+
+.gallery div{
+    width: 100%;
+}
+
+.gallery div img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.Contact{
+    padding: 2rem;
+    background: #fff;
+}
+
+.form{
+    margin: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Contact-form{
+    padding: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ 
+.box-input{
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    gap: 1rem;
+}
+
+.box-input input{
+    width: 100%;
+    padding: 10px 1rem;
+    background: transparent;
+    border-radius: 5px;
+    color: #000;
+    border: 2px solid #3872FB;
+}
+
+.box-input textarea{
+    padding: 10px;
+    height: 250px;
+    background: transparent;
+    border-radius: 5px;
+    color: #000;
+    border: 2px solid #3872FB;
+}
+
+.btn-form{
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.btn-form a{
+    padding: 10px 25px;
+    border: 2px solid #3872FB;
+    background: #3872FB;
+    font-size: 0.8rem;
+    color: #fff;
+    border-radius: 10px;
+}
+
+footer{
+    width: 100%;
+    padding: 2rem;
+    background: #0E1733;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.items-ftr{
+    color: #fff;
+}
+
+.items-ftr h2{
+    text-align: center;
+    font-size: 2rem;
+}
+
+.icon-ftr{
+    margin: 2rem 0;
+    display: flex;
+    justify-content: center;
+}
+
+.icon-ftr a{
+    margin: 0px 20px;
+    font-size: 1.2rem;
+    color: #fff;
+}
+
+.items-ftr p{
+    text-align: center;
+}
+
+
+
