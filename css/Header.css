@@ -87,7 +87,6 @@ header h2{
     color: #3872FB;
     text-shadow: 0 0 15px #3872FB;
     width: 50px;
-    transition: all 500ms ease-in-out;
 }
 
 input[type=checkbox] {
@@ -102,7 +101,7 @@ input[type=checkbox] {
     box-shadow: 0 0 15px #00000036;
     z-index: -1;
     left: 0;
-    transition: all 500ms ease-in-out;
+    transition: all 300ms ease-in-out;
     overflow: hidden;
     height: 50vh;
 }
