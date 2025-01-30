@@ -27,6 +27,11 @@
         padding: 1rem 5rem;
     }
 
+    
+    input[type=checkbox]:checked ~ .sdb {
+        width: 40%;
+    }
+
     .container-sidebar{
         display: flex;
     }
@@ -64,6 +69,11 @@
         margin: 0;
     }
 
+    input[type=checkbox]:checked ~ .sdb {
+        width: 50%;
+    }
+
+
     header {
         padding: 0.5rem 3rem;
     }
@@ -81,6 +91,11 @@
     .container-sidebar .sdb {
         margin: 0.2rem 0;
     }
+
+    input[type=checkbox]:checked ~ .sdb {
+        width: 70%;
+    }
+
 
     .home-img {
         height: 350px;

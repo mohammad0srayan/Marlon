@@ -29,7 +29,7 @@ header{
     justify-content: space-between;
     align-items: center;
     padding: 2rem 8rem;
-    z-index: 5;
+    z-index: 999;
     border-bottom: 1px solid #2222221a;
     box-shadow: 0 0 25px #14141481;
 }
@@ -90,12 +90,6 @@ header h2{
     transition: all 500ms ease-in-out;
 }
 
-.container-sidebar div label:hover {
-    color: #fff;
-    background: #000;
-    border-radius: 50%;
-}
-
 input[type=checkbox] {
     display: none;
 }
@@ -104,19 +98,21 @@ input[type=checkbox] {
     margin: 1.2rem 0;
     position: absolute;
     width: 0;
-    background: #00000088;
+    background: linear-gradient(45deg , #fff , #81a3f3);
+    box-shadow: 0 0 15px #00000036;
+    z-index: -1;
     left: 0;
-    transition: all 500ms ease;
+    transition: all 500ms ease-in-out;
     overflow: hidden;
-    height: 100vh;
+    height: 50vh;
 }
 
 .container-sidebar .sdb .sidebar-menu li a{
     display: flex;
     align-items: center;
     font-size: 1.2rem;
-    color: #000;
-    padding: 1.5rem 1rem;
+    color: #302d2d;
+    padding: 1.7rem 2rem;
     transition: all 200ms ease-in-out;
 }
 
@@ -126,5 +122,5 @@ input[type=checkbox] {
 }
 
 input[type=checkbox]:checked ~ .sdb {
-    width: 100%;
+    width: 70%;
 }
