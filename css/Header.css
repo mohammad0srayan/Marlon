@@ -47,7 +47,13 @@ header h2{
     margin: 0px 25px;
     color: #000;
     font-size: 1.1rem;
+    transition: all 500ms ease-in-out;
 }
+
+.menu a:hover{
+    color: #000000a1;
+}
+
 
 .menu a span{
     padding: 2px;
@@ -56,4 +62,69 @@ header h2{
 
 .icon-header{
     display: none;
+}
+
+/* sidebar website */
+
+.container-sidebar{
+    top: 0.1rem;
+    align-items: center;
+    height: 100%;
+    display: none;
+}
+
+.container-sidebar div{
+    display: flex;
+    background: transparent;
+}
+
+.container-sidebar div label{
+    cursor: pointer;
+    font-size: 2rem;
+    height: 100%;
+    line-height: 60px;
+    text-align: center;
+    color: #3872FB;
+    text-shadow: 0 0 15px #3872FB;
+    width: 50px;
+    transition: all 500ms ease-in-out;
+}
+
+.container-sidebar div label:hover {
+    color: #fff;
+    background: #000;
+    border-radius: 50%;
+}
+
+input[type=checkbox] {
+    display: none;
+}
+
+.container-sidebar .sdb {
+    margin: 1.2rem 0;
+    position: absolute;
+    width: 0;
+    background: #00000088;
+    left: 0;
+    transition: all 500ms ease;
+    overflow: hidden;
+    height: 100vh;
+}
+
+.container-sidebar .sdb .sidebar-menu li a{
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+    color: #000;
+    padding: 1.5rem 1rem;
+    transition: all 200ms ease-in-out;
+}
+
+.container-sidebar .sdb .sidebar-menu li a:hover{
+    background: #00000080;
+    backdrop-filter: blur(10px);
+}
+
+input[type=checkbox]:checked ~ .sdb {
+    width: 100%;
 }
